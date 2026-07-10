@@ -16,10 +16,10 @@ The goal isn't just "install ELK and call it done." It's to build genuine, compa
 
 | # | Project | Status |
 |---|---|---|
-| 01 | [ELK Stack Installation & Filebeat Ingestion](./project-01-elk-installation/) | ✅ Complete |
-| 02 | [Kibana Discover & Index Patterns](./project-02-discover-index-patterns/) | ✅ Complete |
-| 03 | Kibana Dashboard: Suricata + Auth Log Visualization | 🔜 Planned |
-| 04 | Splunk vs Kibana Comparison | 🔜 Planned |
+| 01 | [ELK Stack Installation & Filebeat Ingestion](https://github.com/collinsnwammuo/SIEM-ELK-Stack/tree/main/ELK%20Stack%20Installation%20%26%20Filebeat%20Ingestion) | ✅ Complete |
+| 02 | [Kibana Discover & Index Patterns](https://github.com/collinsnwammuo/SIEM-ELK-Stack/tree/main/Kibana%20Discover%20%26%20Index%20Patterns) | ✅ Complete |
+| 03 | [Kibana Dashboard: Suricata + Auth Log Visualization](https://github.com/collinsnwammuo/SIEM-ELK-Stack/tree/main/Kibana%20Dashboard%3A%20Suricata%20%2B%20Auth%20Log%20Visualization) | ✅ Complete |
+| 04 | [Splunk vs Kibana Comparison](https://github.com/collinsnwammuo/SIEM-ELK-Stack/tree/main/Splunk%20vs%20Kibana%20Comparison) | ✅ Complete |
 
 ### 🛠️ Project 01: ELK Stack Installation & Filebeat Ingestion
 Full install of Elasticsearch and Kibana, working through three real failure points along the way: using the wrong service account for Kibana's setup wizard, an HTTP/HTTPS scheme mismatch, and a certificate permission error that caused Kibana to crash-loop. Also covers configuring and validating Filebeat as the log shipper for both `auth.log` and Suricata's `eve.json`.
